@@ -1,0 +1,527 @@
+  //Escribir como van variando las variables y escribir
+
+  //la salida parciales por pantalla para cada una de las
+
+  //iteraciones de los bucles
+
+  //Hacerlo en un fichero ".txt"
+-----------------------------------------------------------------------------------------------
+//Ejercicio 1
+
+for(int i = 1; i <= 3; i++) {
+
+   	if(i % 2 == 1) {
+
+      	 	system.out.println(i + 1);
+	}                                            
+
+}
+
+//Ejercicio 1.txt
+
+//Iteración 1
+// i = 1
+// salida = 2 
+
+//Iteración 2
+// i = 2
+
+//Iteración 3
+// i = 3
+// salida = 4
+
+//Iteración 4
+// i = 4
+
+-----------------------------------------------------------------------------------------------
+  //Ejercicio 2
+
+for(int i = 1; i <= 6; i+=2) {
+
+ 	if(i % 2 == 0) {
+
+		System.out.println(i - 1);
+
+	}                                            
+
+}
+
+//Ejercicio 2.txt
+
+//Iteración 1
+// i = 1
+
+
+//Iteración 2
+// i = 2
+// salida = 1
+
+//Iteración 3
+// i = 3
+
+//Iteración 4
+// i = 4
+// salida = 3
+
+//Iteración 5
+// i = 5
+
+//Iteración 6
+// i = 6
+// salida = 5
+
+//Iteración 7
+// i = 7
+-----------------------------------------------------------------------------------------------
+ //Ejercicio 3
+
+for(int i = 1; i <= 6; i+=3) {
+
+	if(i % 2 == 0) {
+
+		System.out.println(i - 1);
+
+	}else {
+
+		System.out.println(i + 1);
+
+	}
+
+ }
+
+//Ejercicio 3.txt
+
+//Iteración 1
+// i = 1
+// salida = 4
+
+//Iteración 2
+// i = 4
+// salida = 3
+
+//Iteración 3
+// i = 7
+// salida = 8
+
+//Iteración 4
+// i = 10
+// salida = 9
+
+//Iteración 5
+// i = 13
+// salida = 14
+
+//Iteración 6
+// i = 16
+// salida = 15
+
+//Iteración 7
+// i = 7
+-----------------------------------------------------------------------------------------------
+
+//Ejercicio 4
+
+for(int i = 1; i <= 6; i++) {
+
+	if(i % 2 == 0) {
+
+		System.out.println(i - 1);
+
+	}else {
+
+		i++;
+	}
+
+}
+//Ejercicio 4.txt
+
+//Iteración 1
+// i = 1
+
+
+//Iteración 2
+// i = 3
+
+
+//Iteración 3
+// i = 5
+
+
+//Iteración 4
+// i = 7
+
+-----------------------------------------------------------------------------------------------
+
+//Ejercicio 5
+
+for(int i = 1; i <= 6; i++) {
+
+	int variable = 1;
+
+	if(i % 2 == 0 && variable != 3) {
+
+		System.out.println(i);
+
+	}
+
+	variable ++;
+
+}
+//Ejercicio 5.txt
+
+//Iteración 1
+// i = 1
+// int variable = 1
+
+
+//Iteración 2
+// i = 2
+// int variable = 2
+// salida = 2
+
+
+//Iteración 3
+// i = 3
+// int variable = 3
+
+
+//Iteración 4
+// i = 4
+// int variable = 4
+// salida = 4
+
+//Iteración 5
+// i = 5
+// int variable = 5
+
+//Iteración 6
+// i = 6
+// int variable = 6
+// salida = 6
+
+//Iteración 7
+// i = 7
+// int variable = 7
+-----------------------------------------------------------------------------------------------
+//Ejercicio 6
+
+for(int i = 1; i <= 6; i++) {
+
+	int variable = 1;
+
+	if(i % 2 != 0 || variable != 3) {
+
+		System.out.println(i);
+
+	}
+
+	variable += 2;
+
+}
+//Ejercicio 6.txt
+
+//Iteración 1
+// i = 1
+// int variable = 3
+// salida = 1
+
+
+//Iteración 2
+// i = 2
+// int variable = 3
+// salida = 2
+
+
+//Iteración 3
+// i = 3
+// int variable = 3
+// salida = 3
+
+//Iteración 4
+// i = 4
+// int variable = 3
+// salida = 4
+
+//Iteración 5
+// i = 5
+// int variable = 3
+// salida = 5
+
+//Iteración 6
+// i = 6
+// int variable = 3
+// salida = 6
+
+//Iteración 7
+// i = 7
+// int variable = 3
+-----------------------------------------------------------------------------------------------
+ //Ejercicio 7
+
+for(int i = 1; i <= 5; i++) {
+
+	if(i % 2 == 0) {
+
+		System.out.println(i - 1);
+
+        }             
+
+        if(i == 3) {
+
+                    break;
+	}
+
+}
+//Ejercicio 7.txt
+
+//Iteración 1
+// i = 1
+
+//Iteración 2
+// i = 2
+// salida = 1
+
+//Iteración 3
+// i = 3
+
+
+-----------------------------------------------------------------------------------------------
+//Ejercicio 8
+
+for(int i = 1; i <= 5; i++) {
+
+	if(i % 2 == 0) {
+
+		System.out.println(i - 1);
+
+	}             
+
+	if(i == 3) {
+
+		continue;
+
+	}
+
+}
+//Ejercicio8.txt
+
+//Iteración 1
+// i = 1
+
+//Iteración 2
+// i = 2
+// salida = 1
+
+//Iteración 3
+// i = 3
+
+//Iteración 4
+// i = 4
+// salida = 3
+
+//Iteración 5
+// i = 5
+
+//Iteración 6
+// i = 6
+
+-----------------------------------------------------------------------------------------------
+//Ejercicio 9
+
+for(int i = 1; i <= 5; i++) {
+
+	for(int j = 1; j <= 5; j++) {
+
+		if(j == 3) {
+
+			continue;
+
+		}
+
+		System.out.println(i);
+
+	}
+
+	if(i == 4) {
+
+		System.out.println(45);
+
+		break;
+
+	}
+
+}
+//Ejercicio9.txt
+
+//Iteración 1
+// i = 1
+// j = 1
+// salida = 1
+
+//Iteración 2
+// i = 1
+// j = 2
+// salida = 1
+
+//Iteración 3
+// i = 1
+// j = 3
+
+//Iteración 4
+// i = 1
+// j = 4
+// salida = 1
+
+//Iteración 5
+// i = 1
+// j = 5
+// salida = 1
+
+//Iteración 6
+// i = 2
+// j = 1
+// salida = 2
+
+//Iteración 7
+// i = 2
+// j = 2
+// salida = 2
+
+//Iteración 8
+// i = 2
+// j = 3
+
+//Iteración 9
+// i = 2
+// j = 4
+// salida = 2
+
+//Iteración 10
+// i = 2
+// j = 5
+// salida = 2
+
+//Iteración 11
+// i = 3
+// j = 1
+// salida = 3
+
+//Iteración 12
+// i = 3
+// j = 2
+// salida = 3 
+
+//Iteración 13
+// i = 3
+// j = 3
+
+//Iteración 14
+// i = 3
+// j = 4
+// salida = 3
+
+//Iteración 15
+// i = 3
+// j = 5
+// salida = 3
+
+//Iteración 16
+// i = 4
+// j = 1
+// salida = 4
+
+//Iteración 17
+// i = 4
+// j = 2
+// salida = 4
+
+//Iteración 18
+// i = 4
+// j = 3
+
+//Iteración 19
+// i = 4
+// j = 4
+// salida = 4
+
+//Iteración 20
+// i = 4
+// j = 5
+// salida = 4
+
+//Iteración 21
+// i = 4
+// salida = 45
+
+----------------------------------------------------------------------------------------------
+//Ejercicio 10
+
+for(int i = 1; i <= 5; i++) {
+
+	System.out.println(i++);
+
+}
+//Ejercicio10.txt
+
+//Iteración 1
+// i = 1
+// salida = 1
+
+//Iteración 2
+// i = 3
+// salida = 3
+
+//Iteración 3
+// i = 5
+// salida = 5
+
+//Iteración 4
+// i = 7
+
+----------------------------------------------------------------------------------------------
+//Ejercicio 11
+
+for(int i = 1; i <= 5; i++) {
+
+        System.out.println(++i);
+
+}
+//Ejercicio11.txt
+
+//Iteración 1
+// i = 1
+// salida = 2
+
+//Iteración 2
+// i = 3
+// salida = 4
+
+//Iteración 3
+// i = 5
+// salida = 6
+
+//Iteración 4
+// i = 7
+----------------------------------------------------------------------------------------------
+//Ejercicio 12
+
+for(int i = 0; i <= 5; i+=2){
+
+	System.out.println(++i);
+}
+//Ejercicio12.txt
+
+//Iteración 1
+// i = 0
+// salida = 1
+
+//Iteración 2
+// i = 3
+// salida = 4
+
+//Iteración 3
+// i = 6
+
+
+
+
